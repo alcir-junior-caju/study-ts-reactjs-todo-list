@@ -2,6 +2,8 @@ import React, { Children, FC, useEffect, useState } from 'react';
 
 import { api } from '@services';
 
+import { Loader } from '@components';
+
 import { getAvatarGender } from '@utils';
 
 import { Container, UserContainer } from './styles';
@@ -27,6 +29,8 @@ const Home: FC = () => {
   return (
     <Container>
       <h1>Users</h1>
+
+      {!users.length && <Loader />}
 
       <UserContainer>
         {Children.toArray(
