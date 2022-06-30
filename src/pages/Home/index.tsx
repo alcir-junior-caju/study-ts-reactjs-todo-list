@@ -2,13 +2,11 @@ import React, { Children, FC, useEffect, useState } from 'react';
 
 import { api } from '@services';
 
-import { Loader } from '@components';
-
-import { getAvatarGender } from '@utils';
+import { Loader, User } from '@components';
 
 import { Container, UserContainer } from './styles';
 
-export interface Users {
+export interface User {
   id: number;
   name: string;
   email: string;
@@ -20,7 +18,7 @@ export interface Users {
 }
 
 const Home: FC = () => {
-  const [users, setUsers] = useState<Users[]>([]);
+  const [users, setUsers] = useState<User[]>([]);
 
   useEffect(() => {
     api.get('/users').then(response => setUsers(response.data));
@@ -36,23 +34,7 @@ const Home: FC = () => {
         {Children.toArray(
           users.map(user => (
             <li>
-              <img src={getAvatarGender(user.name)} alt={user.name} />
-              <div>
-                <strong>{user.name}</strong>
-                <small>{user.email}</small>
-                <small>
-                  <strong>Phone: </strong>
-                  <span>{user.phone}</span>
-                </small>
-                <small>
-                  <strong>Site: </strong>
-                  <span>{user.website}</span>
-                </small>
-                <small>
-                  <strong>Company: </strong>
-                  <span>{user.company.name}</span>
-                </small>
-              </div>
+              <User {...user} />
             </li>
           ))
         )}
