@@ -2,11 +2,8 @@
 <table>
   <tr>
     <td>
-      <img alt="Caju" src="https://www.cajucomunica.com.br/logo-caju.png" width="250px" />
-    </td>
-    <td>
       <h3>
-        Instalação Padrão React Default
+        Projeto TODO List
       </h3>
       <p>Instalação Padrão React Default, com algumas configurações pre-definidas.</p>
       <p>
