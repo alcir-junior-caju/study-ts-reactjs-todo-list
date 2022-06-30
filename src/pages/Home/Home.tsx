@@ -4,7 +4,7 @@ import { api } from '@services';
 
 import { Loader, User } from '@components';
 
-import { Container, UserContainer } from './styles';
+import { Container, UserContainer } from './Home.styles';
 
 export interface User {
   id: number;
@@ -43,4 +43,4 @@ const Home: FC = () => {
   );
 };
 
-export default Home;
+export { Home };

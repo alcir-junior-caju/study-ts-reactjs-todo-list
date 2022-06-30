@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { Container, Loading } from './styles';
+import { Container, Loading } from './Loader.styles';
 
 const Loader: FC = () => {
   return (
@@ -20,4 +20,4 @@ const Loader: FC = () => {
   );
 };
 
-export default Loader;
+export { Loader };

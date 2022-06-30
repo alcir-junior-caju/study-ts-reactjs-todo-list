@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 
 import { getAvatarGender } from '@utils';
 
-import { Container } from './styles';
+import { Container } from './User.styles';
 
 export interface UserProps {
   name: string;
@@ -46,4 +46,4 @@ const User: FC<UserProps> = (props: UserProps) => {
   );
 };
 
-export default User;
+export { User };
