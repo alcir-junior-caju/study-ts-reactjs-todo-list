@@ -1,23 +1,16 @@
 <!-- Info Header -->
-<table>
-  <tr>
-    <td>
-      <h3>
-        Projeto TODO List
-      </h3>
-      <p>Instalação Padrão React Default, com algumas configurações pre-definidas.</p>
-      <p>
-        <a href="https://cajucomunica.com.br">
-          <img alt="Criado por Alcir Junior [Caju]" src="https://img.shields.io/badge/criado%20por-Alcir Junior [Caju]-%23f08700">
-        </a>
-        <img alt="License" src="https://img.shields.io/badge/license-MIT-%23f08700">
-      </p>
-      <p>
-        <a href="#descrição">Descrição</a>
-      </p>
-    </td>
-  </tr>
-</table>
+### Projeto TODO List
+Instalação Padrão React Default, com algumas configurações pre-definidas.
+
+<p>
+  <a href="https://cajucomunica.com.br">
+    <img alt="Criado por Alcir Junior [Caju]" src="https://img.shields.io/badge/criado%20por-Alcir Junior [Caju]-%23f08700">
+  </a>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%23f08700">
+</p>
+<p>
+  <a href="#descrição">Descrição</a>
+</p>
 
 ---
 
