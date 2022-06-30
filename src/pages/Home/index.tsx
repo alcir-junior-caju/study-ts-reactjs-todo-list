@@ -30,7 +30,7 @@ const Home: FC = () => {
     <Container>
       <h1>Users</h1>
 
-      {!users.length && <Loader />}
+      {!users.length && <Loader data-test-id="loading" />}
 
       <UserContainer>
         {Children.toArray(
