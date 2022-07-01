@@ -11,6 +11,10 @@ export const Container = styled.div`
   & > h1 {
     margin: 32px 0;
   }
+
+  @media (max-width: 768px) {
+    padding: 0 16px;
+  }
 `;
 
 export const UserContainer = styled.ul`
@@ -28,6 +32,11 @@ export const UserContainer = styled.ul`
   }
 
   & > li {
+    & > a {
+      color: #312e38;
+      text-decoration: none;
+    }
+
     &:last-child {
       margin-bottom: 64px;
     }
