@@ -111,3 +111,38 @@ export const TodoItemLabel = styled.label`
     transition: clip-path 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
 `;
+
+export const TodoMessage = styled.p`
+  color: #93bf85;
+  margin-top: 16px;
+  text-transform: uppercase;
+`;
+
+export const TodoError = styled.p`
+  color: #ff9e81;
+  margin-top: 8px;
+  text-transform: uppercase;
+`;
+
+export const TodoForm = styled.form`
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+
+  & > input {
+    background-color: #fff;
+    border: 1px solid #312e38;
+    border-radius: 4px 0 0 4px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  & > button {
+    background-color: #312e38;
+    border: 1px solid #312e38;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+    padding: 8px;
+  }
+`;
