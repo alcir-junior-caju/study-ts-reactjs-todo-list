@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, memo } from 'react';
 
 import { getAvatarGender } from '@utils';
 
@@ -46,4 +46,6 @@ const User: FC<UserProps> = (props: UserProps) => {
   );
 };
 
-export { User };
+const UserMemo = memo(User);
+
+export { UserMemo };
