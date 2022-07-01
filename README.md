@@ -9,16 +9,15 @@ Instalação Padrão React Default, com algumas configurações pre-definidas.
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%23f08700">
 </p>
 <p>
-  <a href="#descrição">Descrição</a>
+  <a href="#descrição">Descrição</a> |
+  <a href="#prints">Prints</a>
 </p>
 
 ---
 
 ## Visualizar o projeto na IDE:
 
-Para quem quiser visualizar o projeto na IDE esse recurso do GitHub é bem bacana:
-
-https://github1s.com/alcir-junior-caju/project-js-react-default
+Para quem quiser visualizar o projeto na IDE do github aperte o ponto no teclado. =)
 
 ---
 
@@ -80,3 +79,13 @@ git commit -m ''
 ```
 
 Que será executado o lint do código, os testes do código alterado será executado e por fim uma série de perguntas aparecerá no terminal para guiar o tipo de commit.
+
+## Prints
+
+<p align="center">
+    <img alt="Home" src="_images/home.png" width="75%" style="margin: 15px 0" />
+</p>
+
+<p align="center">
+    <img alt="Todos" src="_images/todos.png" width="75%" style="margin: 15px 0" />
+</p>
